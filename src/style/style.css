@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Raleway", sans-serif;
+}
+
+header{
+    height: 10vh;
+    background: #fafafa;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 4%;
+}
+
+header a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #193559;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+header a img{
+    margin-top: 5px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header ul li a{
+    color: #899bb1;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.2s ease-in;
+}
+
+header ul li a:hover{
+    color: #193559;
+}
+
+main .header-pg{
+    background-image: linear-gradient( to right, #19355971, #fafafa0e, #19355971 ), url(/src/img/laura-spina-C6_5dFMmdh4-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+main .header-pg h1{
+    width: 800px;
+    font-size: 50px;
+    margin-top: -60px;
+    margin: 0 8%;
+    color: #fafafa;
+    text-shadow: 5px 5px 5px #2b2e31;
+}
+
+main .header-pg p{
+    width: 500px;
+    margin: 0 8%;
+    color: #fafafa;
+    font-weight: 400;
+    font-size: 20px;
+    text-shadow: 5px 5px 5px #2b2e31;
+}
+
+/* Mobile menu */
+
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: #193559;
+    margin: 7px;
+    border-radius: 5px;
+}
+
+/* Menu Responsivo */
+
+@media (max-width: 999px){
+    body{
+        overflow-x: hidden;
+    }
+
+    main .header-pg h1{
+        font-size: 28px;
+        width: 100%;
+        margin: 0 4%;
+    }
+
+    main .header-pg p{
+        font-size: 15px;
+        width: 100%;
+        margin: 0 4%; 
+    }
+
+
+
+    .logo-txt{
+        display: none;
+    }
+    .nav-list{
+        position: absolute;
+        top: 10vh;
+        right: 0;
+        width: 60vw;
+        height: 90vh;
+        background: #193559;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+
+    }
+
+    .nav-list li{
+        margin-left: -20px !important;
+        opacity: 0;
+    }
+
+    .mobile-menu{
+        display: block;
+    }
+}
