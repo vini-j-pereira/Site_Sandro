@@ -98,7 +98,7 @@ main .header-pg p{
 
 /* Menu Responsivo */
 
-@media (max-width: 600px){
+@media (max-width: 900px){
     body{
         overflow: hidden !important;
     }
@@ -108,7 +108,8 @@ main .header-pg p{
     }
 
     main .header-pg h1{
-        font-size: 28px;
+        margin-top: -60px !important;
+        font-size: 30px;
         width: 100%;
         margin: 0 4%;
     }
