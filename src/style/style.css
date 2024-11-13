@@ -85,7 +85,7 @@ main .header-pg p{
 .mobile-menu{
     display: none;
     cursor: pointer;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .mobile-menu div{
@@ -104,7 +104,7 @@ main .header-pg p{
     }
 
     .logo img{
-        margin-top: 5px;
+        margin-top: 10px;
     }
 
     main .header-pg h1{
