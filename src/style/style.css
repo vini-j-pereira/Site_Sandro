@@ -129,14 +129,14 @@ main .header-pg p{
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+        display: none; 
         transform: translateX(100%);
-        display: none;
         transition: transform 0.3s ease-in;
 
     }
 
     .nav-list li{
-        margin-left: -20px !important;
+        margin-left: -10px !important;
         opacity: 0;
     }
 
@@ -147,5 +147,16 @@ main .header-pg p{
     .nav-list.active{
         transform: translateX(0);
         display: flex;
+    }
+
+    @keyframes navLinkFade {
+        from{
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0);
+        }
     }
 }
