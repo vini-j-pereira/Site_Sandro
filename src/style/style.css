@@ -142,7 +142,6 @@ main .header-pg p{
     }
 
     .nav-list li{
-        margin-left: -10px !important;
         opacity: 0;
     }
 
