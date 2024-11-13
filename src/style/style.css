@@ -85,6 +85,7 @@ main .header-pg p{
 .mobile-menu{
     display: none;
     cursor: pointer;
+    margin-top: 5px;
 }
 
 .mobile-menu div{
@@ -100,6 +101,10 @@ main .header-pg p{
 @media (max-width: 600px){
     body{
         overflow: hidden !important;
+    }
+
+    .logo img{
+        margin-top: 5px;
     }
 
     main .header-pg h1{
