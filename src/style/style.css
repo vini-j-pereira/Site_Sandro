@@ -52,7 +52,7 @@ header ul li a:hover{
 }
 
 main .header-pg{
-    background-image: linear-gradient( to right, #19355971, #fafafa0e, #19355971 ), url(/src/img/laura-spina-C6_5dFMmdh4-unsplash.jpg);
+    background-image: linear-gradient( to right, #19355980, #1935593a, #19355980 ), url(/src/img/laura-spina-C6_5dFMmdh4-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,7 +108,7 @@ main .header-pg p{
     }
 
     main .header-pg h1{
-        margin-top: -60px !important;
+        margin-top: -80px !important;
         font-size: 35px;
         width: 90%;
         margin: 0 4%;
