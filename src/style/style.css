@@ -145,6 +145,14 @@ main .header-pg p{
         opacity: 0;
     }
 
+    .nav-list li a{
+        color: #fafafa;
+    }
+
+    .nav-list li a:hover{
+        color: #899bb1;
+    }
+
     .mobile-menu{
         display: block;
     }
