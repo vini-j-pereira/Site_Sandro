@@ -97,9 +97,9 @@ main .header-pg p{
 
 /* Menu Responsivo */
 
-@media (max-width: 999px){
+@media (max-width: 600px){
     body{
-        overflow-x: hidden;
+        overflow: hidden !important;
     }
 
     main .header-pg h1{
@@ -130,6 +130,8 @@ main .header-pg p{
         align-items: center;
         justify-content: space-around;
         transform: translateX(100%);
+        display: none;
+        transition: transform 0.3s ease-in;
 
     }
 
@@ -140,5 +142,10 @@ main .header-pg p{
 
     .mobile-menu{
         display: block;
+    }
+
+    .nav-list.active{
+        transform: translateX(0);
+        display: flex;
     }
 }
