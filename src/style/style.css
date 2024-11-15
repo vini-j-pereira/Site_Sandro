@@ -210,6 +210,7 @@ main .header-pg p{
         font-size: 16px;
         width: 300px !important;
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .txt-sobre p{
