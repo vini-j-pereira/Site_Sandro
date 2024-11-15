@@ -7,6 +7,10 @@
     font-family: "Raleway", sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 header{
     height: 10vh;
     background: #fafafa;
@@ -79,6 +83,78 @@ main .header-pg p{
     font-size: 20px;
     text-shadow: 5px 5px 5px #2b2e31;
 }
+
+/* Sobre */
+
+.header-sobre{
+    background-color: #fafafa;
+}
+
+.container-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px 0;
+    background-color: #4e4e4e1a;
+    margin: 80px 0;
+    box-shadow: 5px 5px 5px #2b2e312f;
+
+}
+
+.txt-sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 0 4%;
+}
+
+.txt-sobre h2{
+    color: #193559;
+    text-shadow: 2px 2px 2px #42424223;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.txt-sobre span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #485a72;
+    text-align: start;
+    width: 710px;
+    border-bottom: solid 2px #ffffff;
+}
+
+.txt-sobre p{
+    margin-top: 10px;
+    font-weight: 600;
+    color: #485a72;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    text-align: start;
+    margin-top: 15px;
+    width: 710px;
+}
+
+.img-sobre{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.img-sobre img{
+    height: 350px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #2b2e312f;
+}
+
+
+
+
+
+
+
 
 /* Mobile menu */
 
