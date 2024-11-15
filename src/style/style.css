@@ -177,7 +177,7 @@ main .header-pg p{
 
 @media (max-width: 900px){
     body{
-        overflow: hidden !important;
+        overflow-x: hidden !important;
     }
 
     .logo img{
@@ -195,6 +195,30 @@ main .header-pg p{
         font-size: 20px;
         width: 70% !important;
         margin: 0 4%; 
+    }
+
+    /* Sobre */
+
+    .container-sobre{
+        width: 100%;
+        height: 100vh;
+
+    }
+
+    .txt-sobre span{
+        height: auto;
+        font-size: 16px;
+        width: 300px !important;
+        text-align: center;
+    }
+
+    .txt-sobre p{
+        text-align: center;
+        width: 300px;
+    }
+
+    .img-sobre{
+        display: none;
     }
 
 
