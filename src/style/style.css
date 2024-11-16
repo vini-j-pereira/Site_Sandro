@@ -82,6 +82,7 @@ main .header-pg p{
     font-weight: 400;
     font-size: 20px;
     text-shadow: 5px 5px 5px #2b2e31;
+    text-align: start;
 }
 
 /* Sobre */
@@ -124,6 +125,7 @@ main .header-pg p{
     text-align: start;
     width: 710px;
     border-bottom: solid 2px #ffffff;
+    padding-bottom: 10px;
 }
 
 .txt-sobre p{
