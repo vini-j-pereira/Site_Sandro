@@ -295,6 +295,8 @@ main .header-pg p{
     }
 
     .container-box{
+        height: 400px !important;
+        width: auto !important;
         display: flex;
         flex-direction: column;
         align-items: center;
