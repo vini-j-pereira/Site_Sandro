@@ -308,6 +308,10 @@ main .header-pg p{
         gap: 5px;
     }
 
+    .txt-box{
+        height: 150px;
+    }
+
     .container-box h3, p{
         text-align: center;
     }
