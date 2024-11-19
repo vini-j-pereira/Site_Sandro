@@ -360,7 +360,7 @@ main .header-pg p{
 
 .input-box label{
     font-size: 14px;
-    color: #2b2e31;
+    color: #fafafa;
 }
 
 .input-icons{
@@ -369,7 +369,7 @@ main .header-pg p{
     gap: 15px;
     padding: 3px;
     cursor: text;
-    border-bottom: 1px solid #2b2e31;
+    border-bottom: 1px solid #193559;
 }
 
 .input-icons i{
