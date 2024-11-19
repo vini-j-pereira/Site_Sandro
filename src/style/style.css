@@ -210,12 +210,10 @@ main .header-pg p{
 
 /* Banner */
 
-section.banner{
+.banner{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60vh !important;
-    width: 100%;
     margin-bottom: 100px;
 }
 
@@ -227,7 +225,6 @@ section.banner{
     background-position: 60% 42%;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 50px 0;
     height: 50vh !important;
     width: 100%;
     box-shadow: 5px 5px 5px #2b2e312f;
@@ -416,7 +413,7 @@ section.banner{
         background-repeat: no-repeat !important;
         background-size: cover;
         background-position: 100% 50%;
-        margin-top: 500px !important;
+        margin-top: 300px;
         height: 50vh !important;
         background-size: cover;
     }
